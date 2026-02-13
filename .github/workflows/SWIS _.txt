@@ -1,0 +1,19 @@
+@echo off
+title SWIS SERVER - SHASHOGO WOREDA
+
+echo Starting Shashogo Woreda Integrated System...
+echo ----------------------------------------------
+echo Server is running at: http://localhost:5000
+echo Network Access: http://192.168.1.15:5000
+echo ----------------------------------------------
+
+:: Navigate to your project folder (CHANGE THIS PATH)
+SWIS 
+
+:: Activate virtual environment (Optional if you use venv)
+:: call venv\Scripts\activate
+
+:: Run the application
+python app.py
+
+pause
